@@ -12,19 +12,11 @@ import { Typewriter } from "./functions/typewriter.jsx";
 import Carousel from './functions/carousel.jsx';
 
 function App() {
-  const audioRef = useRef(null);
-
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.volume = 0.2; // lower background music volume
-    }
-  }, []);
 
   return (
     <div className='overflow-hidden'>
 
-      {/* Background music */}
-      <audio ref={audioRef} src={happybday} autoPlay loop style={{ display: "none" }} />
+      <audio src={happybday} autoPlay loop style={{ display: "none" }} />
 
       {/* Section 1 - Hero */}
       <section
