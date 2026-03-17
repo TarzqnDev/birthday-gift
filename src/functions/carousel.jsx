@@ -13,7 +13,7 @@ const slides = [
   { image: carousel3, caption: "Keep up the goodwork tee! I am always proud of youu" },
   { image: carousel4, caption: "Enjoy your birthday always baksilogg! MBTCCC" },
   { image: carousel5, caption: "Wishing youu achieve all your dreams someday monkeyyy" },
-  { image: carousel6, caption: "Ate Yannaa, life can feel heavy, and it’s okay to pause. You don’t have to carry everything alone, lean on family and friends when you need to. Tough moments pass, and brighter days will come. Prayyy lang palagii tayooo." },
+  { image: carousel6, caption: "Ate Yannaa, life can feel heavy, and it’s okay to pause. You don’t have to carry everything alone, lean on family and friends when you need to. Tough moments pass, and brighter days will come. Prayyy lang palagiii" },
 ];
 
 export default function Carousel() {
